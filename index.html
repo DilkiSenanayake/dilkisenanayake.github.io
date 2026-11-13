@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name | Aspiring Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Your Name, an aspiring full-stack developer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="#top" class="logo">Your Name</a>
+    <button id="menu-btn" class="menu-btn" aria-label="Open menu" aria-expanded="false">Menu</button>
+    <nav id="nav" class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-btn" class="theme-btn" aria-label="Switch colour theme">Dark mode</button>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <h1>I build things<br>for the web.</h1>
+      <p class="lead">Hi, I'm Your Name, an aspiring full-stack developer learning in public. Everything I build lives on GitHub.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">See my projects</a>
+        <a class="btn" href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub profile</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>I'm a beginner developer working towards a full-stack role. I'm building a new project every few weeks, starting with the front end and moving to servers and databases.</p>
+      <p>Right now I'm learning JavaScript, Node.js and SQL. I enjoy turning a small idea into something that works and that other people can use.</p>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Portfolio website</h3>
+          <p>This site. Responsive layout, dark mode, deployed with GitHub Pages.</p>
+          <p class="tags">HTML, CSS, JavaScript</p>
+          <a href="https://github.com/yourusername/yourusername.github.io" target="_blank" rel="noopener">View code</a>
+        </article>
+        <article class="card muted">
+          <h3>Weather app</h3>
+          <p>Search any city and see the forecast. Coming next.</p>
+          <p class="tags">JavaScript, public API</p>
+        </article>
+        <article class="card muted">
+          <h3>Task manager</h3>
+          <p>Full-stack app with accounts and a database. Planned.</p>
+          <p class="tags">Node.js, Express, SQL</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git and GitHub</li>
+        <li>Node.js (learning)</li><li>SQL (learning)</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>I'm looking for an internship or junior role. The best way to reach me is email.</p>
+      <p>
+        <a href="mailto:you@example.com">you@example.com</a><br>
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a><br>
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener">linkedin.com/in/yourusername</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
